@@ -1,5 +1,5 @@
 import React from 'react';
-import {IBurger} from "../../types";
+import {IBurger} from '../../types';
 
 const Burger: React.FC<IBurger> = ({ saladCount, cheeseCount, meatCount, baconCount }) => {
     return (

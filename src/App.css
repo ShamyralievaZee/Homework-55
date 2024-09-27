@@ -5,9 +5,78 @@
   text-align: center;
 }
 
-.main-container{
+.main-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.ingredient-container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+}
+
+.burger-container{
+  border: 1px solid lightgray;
+  overflow: auto;
+}
+
+.Burger {
+  width: 100%;
+  margin: auto;
+  height: 250px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.ingredient-control {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.ingredient-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  margin: 10px 30px 10px 10px;
+  cursor: pointer;
+}
+
+.ingredient-image:hover {
+  outline: 3px solid #ff7300;
+}
+
+.ingredient-control p {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.ingredient-control button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.ingredient-control button:hover {
+  background-color: #ff7300;
+}
+
+.price-display {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.price-display h2 {
+  font-size: 1.8rem;
+  color: #333;
 }
 
 .BreadBottom {
@@ -121,16 +190,6 @@
   height: 3%;
   background: linear-gradient(#bf3813, #c45e38);
   margin: 2% auto;
-}
-
-.Burger {
-  width: 100%;
-  margin: auto;
-  height: 250px;
-  overflow: auto;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.2rem;
 }
 
 @media (min-width: 1000px) and (min-height: 700px) {
