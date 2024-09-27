@@ -43,6 +43,10 @@ const App = () => {
 
     return (
         <div className="container">
+            <div className="titles">
+                <h3>Ingredients</h3>
+                <h3>The Burger</h3>
+            </div>
             <div className="main-container">
                 <div className="ingredient-container">
                     <div className="ingredient-control">
@@ -77,7 +81,7 @@ const App = () => {
                 </div>
             </div>
             <div className="price-display">
-                <h2>Total Price: {getTotalPrice()} som</h2>
+                <h2>Total: {getTotalPrice()}soms</h2>
             </div>
         </div>
     );

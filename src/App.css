@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+.titles{
+  display: flex;
+  justify-content: space-around;
+}
+
+.titles h3{
+  margin-right: 80px;
+  color: #575151;
+}
+
 .main-container {
   display: flex;
   justify-content: space-around;
@@ -75,8 +85,8 @@
 }
 
 .price-display h2 {
-  font-size: 1.8rem;
-  color: #333;
+  font-size: 30px;
+  color: #575151;
 }
 
 .BreadBottom {
